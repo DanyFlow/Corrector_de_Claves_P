@@ -422,7 +422,7 @@ else:
 
 # ------- Firma flotante centrada
 # ------- Firma flotante en la esquina inferior izquierda
-url_imagen_drive = "https://lh3.googleusercontent.com/d/1uqXeCGgBghAjmqj3pXqK-HdCrRybQiQL"
+url_imagen_drive = "https://i.redd.it/snoovatar/avatars/98e5bfa6-95f3-46d8-8754-7a64c0099533.png"
 enlace_perfil = "https://share.streamlit.io/user/danyflowt"
 
 firma_html = f"""
