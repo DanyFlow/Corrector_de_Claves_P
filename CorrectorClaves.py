@@ -421,6 +421,7 @@ else:
     st.info("Carga los tres archivos para habilitar las operaciones.")
 
 # ------- Firma flotante centrada
+# ------- Firma flotante en la esquina inferior izquierda
 url_imagen_drive = "https://lh3.googleusercontent.com/d/1uqXeCGgBghAjmqj3pXqK-HdCrRybQiQL"
 enlace_perfil = "https://share.streamlit.io/user/danyflowt"
 
@@ -429,8 +430,7 @@ firma_html = f"""
 .firma-flotante-link {{
     position: fixed;
     bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
+    left: 20px;
     z-index: 999999;
     text-decoration: none;
 }}
