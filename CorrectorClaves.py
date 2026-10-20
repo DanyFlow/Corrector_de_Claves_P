@@ -420,8 +420,11 @@ if "data" in st.session_state:
 else:
     st.info("Carga los tres archivos para habilitar las operaciones.")
 
-# ------- Firma flotante centrada
-# ------- Firma flotante en la esquina inferior izquierda
+# -------Firma
+import base64
+import streamlit as st
+
+# ------- Firma flotante en la esquina superior izquierda
 url_imagen_drive = "https://i.redd.it/snoovatar/avatars/98e5bfa6-95f3-46d8-8754-7a64c0099533.png"
 enlace_perfil = "https://share.streamlit.io/user/danyflowt"
 
@@ -429,7 +432,7 @@ firma_html = f"""
 <style>
 .firma-flotante-link {{
     position: fixed;
-    bottom: 20px;
+    top: 20px;
     left: 20px;
     z-index: 999999;
     text-decoration: none;
@@ -509,3 +512,4 @@ firma_html = f"""
 """
 
 st.markdown(firma_html, unsafe_allow_html=True)
+
