@@ -420,13 +420,6 @@ if "data" in st.session_state:
 else:
     st.info("Carga los tres archivos para habilitar las operaciones.")
 
-# --- FOOTER ---
-st.divider()
-st.markdown(
-    "<div style='text-align: center; color: gray;'>Diseñado por Dany FloVel ⚡</div>",
-    unsafe_allow_html=True
-)
-
 # -------Firma
 import base64
 import streamlit as st
